@@ -12,6 +12,7 @@ export const getPosts = async (req: Request, res: Response) => {
 
 export const createPost = async (req: Request, res: Response) => {
   try {
+    
     const idUser = req.cookies.usersession;
     const { title, content, image} = req.body;
     const post = new Post({ idUser, title, content, image});

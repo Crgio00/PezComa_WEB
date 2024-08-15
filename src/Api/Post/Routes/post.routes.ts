@@ -5,7 +5,7 @@ import {
   getPost,
   getPosts,
   updatePost,
-} from "../../Post/Controller/post.controller";
+} from "../Controller/post.controller";
 const authController = require ("../../Auth/Controller/auth.controller");
 
 const router = express.Router();

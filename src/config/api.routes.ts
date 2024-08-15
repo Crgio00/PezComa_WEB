@@ -1,9 +1,9 @@
 import express from "express";
-import authRoutes from "../aplication/Auth/Routes/auth.routes";
-import userRoutes from "../aplication/User/Routes/user.routes";
-import postRoutes from "../aplication/Post/Routes/post.routes";
-import commentRoutes from "../aplication/Commet/Routes/comment.routes";
-import fishRoutes from "../aplication/Fish/Routes/fish.routes";
+import authRoutes from "../Api/Auth/Routes/auth.routes";
+import userRoutes from "../Api/User/Routes/user.routes";
+import postRoutes from "../Api/Post/Routes/post.routes";
+import commentRoutes from "../Api/Commet/Routes/comment.routes";
+import fishRoutes from "../Api/Fish/Routes/fish.routes";
 
 const router = express.Router();
 
